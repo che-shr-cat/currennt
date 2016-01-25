@@ -10,7 +10,7 @@ INCLUDE_DIRECTORIES (${Boost_INCLUDE_DIR})
 LINK_DIRECTORIES (${Boost_LIBRARY_DIR})
 
 SET (CMAKE_BUILD_TYPE Release)
-SET (CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -arch compute_30")
+SET (CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -arch compute_30 -std=c++11")
 SET (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-format-security")
 
 FILE (GLOB_RECURSE src_lib     currennt_lib/*.cpp currennt_lib/*.hpp     currennt_lib/*.h     currennt_lib/*.cu     currennt_lib/*.cuh)
