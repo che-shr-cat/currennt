@@ -41,4 +41,4 @@ The original code has problems with compiling in recent operating systems. I per
 * Support for Boost 1.60
 * Support for CUDA 7.0/7.5 (thanks to [James Lyons](http://www.jimblog.net/2015/10/installing-currennt-on-ubuntu-1404.html))
 
-It would be nice to add CTC sopport to the library. This one [from Baidu](https://github.com/baidu-research/warp-ctc) seems to be useful.
+It would be nice to add CTC support to the library. This one [from Baidu](https://github.com/baidu-research/warp-ctc) seems to be useful.
