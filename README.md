@@ -33,3 +33,12 @@ The library implements uni- and bidirectional Long Short-Term Memory (LSTM) arch
 * Supports regression and binary/multiclass classification tasks
 * Training with input activation noise for improved generalization
 * Autosave after each training epoch
+
+### What's new in the fork?
+
+The original code has problems with compiling in recent operating systems. I personally found some problems with compiling it on Ubuntu 15.10. Here these problems are fixed.
+
+* Support for Boost 1.60
+* Support for CUDA 7.0/7.5 (thanks to [James Lyons](http://www.jimblog.net/2015/10/installing-currennt-on-ubuntu-1404.html))
+
+It would be nice to add CTC sopport to the library. This one [from Baidu](https://github.com/baidu-research/warp-ctc) seems to be useful.
