@@ -29,6 +29,7 @@
 
 #include <string>
 
+#include <thrust/transform_reduce.h>
 
 namespace layers {
 
